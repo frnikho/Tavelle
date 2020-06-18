@@ -1,0 +1,29 @@
+name: tavelle
+description: votre consommation d'alcool dans votre poche
+publish_to: 'none'
+version: 1.0.0
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^8.8.1
+  lottie: ^0.4.0
+  cupertino_icons: ^0.1.3
+  provider: ^4.1.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+    - fonts/
+    - animations/
+  fonts:
+    - family: ChickenPie
+      fonts:
+        - asset: fonts/chicken_pie.ttf
+    - family: OpenSans
+      fonts:
+        - asset: fonts/opensans.ttf
